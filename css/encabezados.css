@@ -1,0 +1,22 @@
+/*DOCUMENTO CSS*/
+
+* { font-size: 20px; } /*Selector universal*/
+
+body { background-color: rgb(221, 227, 227);
+        color: brown; } /*Selecor de etiqueta*/
+
+h1 { color: rgb(255, 55, 0);
+    text-align: center;
+    text-decoration: underline; }
+
+h2,h4 { color: rgb(255, 157, 0); }
+
+h3,h5 { color: rgb(0, 208, 255); } /*Agrupacion selectores*/
+
+h6 { color: rgb(93, 0, 255); }
+
+.atencion { color: rgb(105, 84, 53); } /*Selector de clase*/
+
+.isq { float: left;
+        width: 200px;
+        height: auto; }
